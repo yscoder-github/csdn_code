@@ -1,3 +1,7 @@
+
+import keras.backend as K 
+import tensorflow as tf 
+
 def test19():
     y2 = tf.convert_to_tensor([[0, 0, 1, 0]], dtype=tf.int64)
 
@@ -10,3 +14,6 @@ def test19():
     print(c2)
     print(c3)
 
+
+
+test19()
